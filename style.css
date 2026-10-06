@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #be74f2;
+  font-family: "Poppins", sans-serif;
+}
+
+.mainBox {
+  height: 500px;
+  width: 350px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #224bdf), #8a4dad;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.mainBox img {
+  height: 200px;
+  width: 200px;
+}
+
+.weather {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.ForeCasts {
+  font-size: 50px;
+  font: 300;
+  color: #dd8139;
+}
+
+.start,
+.homebtn {
+  height: 40px;
+  width: 150px;
+  border-radius: 20px;
+  background-color: #ddb130;
+  color: black;
+  border: none;
+  outline: none;
+}
+
+.start:hover,
+.homebtn:hover {
+  background: #f4c842;
+  transform: scale(1.02);
+  transform-origin: all 0.1s;
+}
+
+.searchbox {
+  height: 50px;
+  width: 280px;
+  border-radius: 8px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.searchbox input {
+  width: 250px;
+  height: 40px;
+  outline: none;
+  border-radius: 8px;
+  padding: 5px;
+  border: none;
+}
+
+.img {
+  display: flex;
+  align-items: center;
+}
+.img img {
+  height: 40px;
+  width: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.iconBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.iconBox img {
+  width: 120px;
+  height: 120px;
+}
+
+.tempBox {
+  height: 100px;
+  width: 280px;
+  text-align: center;
+}
+
+#temp {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+}
+
+#City {
+  font-size: 30px;
+  font-weight: 300;
+  color: #ddb130;
+}
+
+.extraDetails {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 250px;
+}
+#windIcon,
+#humidityicon {
+  width: 80px;
+  height: 80px;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.wind,
+.humdity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.windData,
+.humidityData {
+  display: flex;
+  flex-direction: column;
+}
+
+#windspeed,
+#humidityspeed {
+  font-weight: bold;
+}
+
+#info {
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+
+.inactive {
+  display: none;
+}
